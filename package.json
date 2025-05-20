@@ -1,0 +1,13 @@
+{
+  "name": "graduation",
+  "version": "1.0.0",
+  "description": "Graduation project",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"No start script needed for static site\"",
+    "build": "echo \"No build step required\" && exit 0"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
