@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Details Checker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Check Your Student Details</h1>
+    <input type="text" id="indexInput" placeholder="Enter Index Number" />
+    <button onclick="searchStudent()">Search</button>
+
+    <div id="result" class="card hidden"></div>
+
+    <div id="feedback" class="hidden">
+      <h3>Report Feedback</h3>
+      <textarea id="feedbackText" placeholder="Describe any issues..."></textarea>
+      <button onclick="submitFeedback()">Submit Feedback</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
